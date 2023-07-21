@@ -1,0 +1,5 @@
+pip install ultralytics
+pip install --upgrade pip
+pip install ipykernel
+pip install -r requirements.txt 
+yolo predict model=yolov8n-seg.pt source='https://ultralytics.com/images/bus.jpg'

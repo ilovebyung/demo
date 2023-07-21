@@ -1,0 +1,5 @@
+pip install --upgrade pip
+pip install ipykernel
+pip install -r requirements.txt 
+pip install -U ultralytics
+python demo.py
